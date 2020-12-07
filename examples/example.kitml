@@ -49,7 +49,7 @@ rows = [
 title = "Building the Board"
 
 [step]
-counter = "board"
+sequence = "board"
 title = "Add the header"
 
 Solder the header on to the main board.
@@ -58,16 +58,22 @@ Do it verrrrry carefully, ya dingus.
 
 
 [step]
-counter = "board"
+sequence = "board"
 title = "Add the resistors"
 
 Now put the resistors in.
+
+{{seq:test}} Imaginary sequence
+
+{{seq:test}} Imaginary sequence again
 
 [callout]
 style = "info"
 text = "The direction of the resistors does not matter."
 
 Clip the resistor leads.
+
+{{seq:test}} More imaginary sequence
 
 
 [part]

@@ -6,12 +6,11 @@ Ideal HTML and PDF hardware documentation.
 
 - Title page
 - Front matter
-- Table of contents
+- Table of contents / navigation
 - Document hierarchy
-    - Part -> Section -> Subsection -> Step -> Paragraph
-- Headers
-    - h1 -> h2 -> h3
-- Named counters
-- Figures
+  - Part -> Section -> Subsection -> Step -> Paragraph
+- References
+- Sequences
+- Figures, tables, callouts
 - Unordered lists
-- Checklists
+- Checklists (stateful on the web)
