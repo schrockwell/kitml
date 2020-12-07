@@ -1,0 +1,73 @@
+[preface]
+title = "Ultrasonic Parking"
+revision = "Revision 1"
+date = "December 7, 2020"
+
+[part]
+title = "Before You Begin"
+
+[section]
+title = "Revision History"
+
+[subsection]
+title = "Revision 1"
+
+- Initial commit
+
+[section]
+title = "Required Equipment"
+
+-[] Soldering iron
+-[] Multimeter
+-[] Arduino (see {{ref:figure-1}})
+
+[figure]
+caption = "An example figure"
+src = "example.png"
+ref = "figure-1"
+
+[section]
+title = "Kit Contents"
+
+-[] (3) French Hens
+-[] (2) Turtle Doves
+-[] (1) Partridge in a Pear Tree
+
+
+[part]
+title = "Building the Board"
+
+[step]
+counter = "board"
+title = "Add the header"
+
+Solder the header on to the main board.
+
+Do it verrrrry carefully, ya dingus.
+
+
+[step]
+counter = "board"
+title = "Add the resistors"
+
+Now put the resistors in.
+
+[note]
+style = "info"
+
+The direction of the resistors does not matter.
+
+Clip the resistor leads.
+
+
+[part]
+title = "Programming"
+
+
+[part]
+title = "Calibration and Testing"
+
+
+[part]
+title = "Troubleshooting"
+
