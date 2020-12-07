@@ -12,14 +12,17 @@ title = "Revision History"
 [subsection]
 title = "Revision 1"
 
-- Initial commit
+Initial revision
 
 [section]
 title = "Required Equipment"
 
--[] Soldering iron
--[] Multimeter
--[] Arduino (see {{ref:figure-1}})
+[checklist]
+items = [
+    "Soldering iron",
+    "Multimeter",
+    "Arduino (see {{ref:figure-1}})",
+]
 
 [figure]
 caption = "An example figure"
@@ -29,10 +32,18 @@ ref = "figure-1"
 [section]
 title = "Kit Contents"
 
--[] (3) French Hens
--[] (2) Turtle Doves
--[] (1) Partridge in a Pear Tree
+[checklist]
+items = [
+    "(3) French Hens",
+    "(2) Turtle Doves",
+    "(1) Partridge in a Pear Tree",
+]
 
+[table]
+rows = [
+    ["foo", "bar", "bat"],
+    ["baz", "bing", "bang"],
+]
 
 [part]
 title = "Building the Board"
@@ -52,7 +63,7 @@ title = "Add the resistors"
 
 Now put the resistors in.
 
-[note]
+[callout]
 style = "info"
 text = "The direction of the resistors does not matter."
 
@@ -69,4 +80,3 @@ title = "Calibration and Testing"
 
 [part]
 title = "Troubleshooting"
-
